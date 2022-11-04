@@ -2,7 +2,7 @@
 name = "tokemak-quant-project"
 version = "0.1.0"
 description = ""
-authors = [""]
+authors = ["Ben Reilly <pbr48@cornell.edu>"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
@@ -20,3 +20,4 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
 example = "tokemak_quant_project.example:main"
+main = "tokemak_quant_project.__init__:main"

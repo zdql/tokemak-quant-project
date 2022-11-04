@@ -4,11 +4,12 @@ The goal of this project is analyze Uniswap V2 and SushiSwap AMM pools using on-
 
 ## Project Requirements
 
-* `data/uni_v2_sushi_pools.csv` has a list of most known pools. This can be considered a definitive list for this project
-* only analyze pools where ETH (WETH) are one of the tokens
-* use primarily on-chain data. If you have other data sources feel fee to use them, but the project needs to be runnable without additional creds
+- `data/uni_v2_sushi_pools.csv` has a list of most known pools. This can be considered a definitive list for this project
+- only analyze pools where ETH (WETH) are one of the tokens
+- use primarily on-chain data. If you have other data sources feel fee to use them, but the project needs to be runnable without additional creds
 
 ## Example Metrics (Non-Exhaustive)
+
 1. historical total return
 2. historical fee return
 3. historical volume/turnover/TVL/etc
@@ -20,7 +21,6 @@ The goal of this project is analyze Uniswap V2 and SushiSwap AMM pools using on-
 2. A summary table with the selected pools
 3. A write-up explaining why the pools were selected (can be brief 1-2 paragraphs)
 4. [Optional] Other stats/metrics you would look at with more time
-
 
 ## Project Setup
 
