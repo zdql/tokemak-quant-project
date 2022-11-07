@@ -240,6 +240,7 @@ def main(start_block, end_block=None):
 
     ls.sort(key=lambda a: a[1], reverse=True)
 
+    print("The top pools and their respective scores:")
     for i in ls:
         print(i)
 
