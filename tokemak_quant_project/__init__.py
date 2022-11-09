@@ -235,7 +235,7 @@ def main(start_block, end_block=None):
         else:
             return score
 
-    ls = [(i, calc_score(scan.token_metrics[i], scan.token_metrics[i]))
+    ls = [(i, calc_score(scan.token_metrics[i]), scan.token_metrics[i])
           for i in scan.token_metrics.keys()]
 
     ls.sort(key=lambda a: a[1], reverse=True)
